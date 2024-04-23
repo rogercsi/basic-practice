@@ -45,9 +45,14 @@ public class MultiThread {
         thread.start();
         for (int i = 0; i < 5; i++) {
             task.submitTask(i);
+            // if (i == 3) {
+            //     task.shutdown();
+            // }
         }
+        int cycle = 1;
         // Wait for all tasks to finish before exiting
         while (task.taskQueue.size() > 0) {
+            System.out.println("wait cycle " + cycle++);
             Thread.sleep(100); // adjust sleep time as needed
         }
     }
