@@ -1,3 +1,5 @@
+package group.multithread;
+
 import java.util.concurrent.LinkedBlockingQueue;
 import java.util.concurrent.atomic.AtomicBoolean;
 

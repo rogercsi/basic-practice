@@ -1,3 +1,5 @@
+package group.multithread;
+
 public class ThreadTest {
     private static Object lock = new Object();
     public static void main(String[] args) throws InterruptedException {
