@@ -1,3 +1,5 @@
+package group.multithread;
+
 import java.time.LocalDateTime;
 import java.util.concurrent.*;
 

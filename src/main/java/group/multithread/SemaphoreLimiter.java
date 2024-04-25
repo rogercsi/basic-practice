@@ -1,3 +1,5 @@
+package group.multithread;
+
 import java.util.concurrent.Semaphore;
 import java.util.concurrent.TimeUnit;
 
